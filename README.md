@@ -60,6 +60,26 @@ I created this tool to reduce that friction and make the process as simple as:
 
 so I can stay focused on reading while still capturing useful information.
 
+[alt-ime-ahk](https://github.com/karakaram/alt-ime-ahk) was a major inspiration for building this tool.
+
+## Requirements
+
+- Windows 11
+
+## How to Use
+
+1. Download and extract `select-note-ahk.zip` from  
+   [select-note-ahk v0.1.0](https://github.com/kazi983/select-note-ahk/releases/download/v0.1.0/select-note-ahk.zip)
+
+2. For the English version, place `select-note-ahk-en.exe` anywhere you like and run it.  
+   The app will stay running in the system tray.
+
+   *Only one version (English or Japanese) should be running at a time. You can delete the unused version if you prefer.*
+
+3. To exit the app, right-click the system tray icon and select **Exit**.
+
+4. To uninstall, simply delete `select-note-ahk-ja.exe`.
+
 ---
 
 # 日本語
@@ -130,3 +150,21 @@ timestamp,text,comment
 だけで記録できるようにするため、このツールを作成しました。
 
 学習中の思考を止めずに、気になった表現や文章を素早く残せることを目指しています。
+
+[alt-ime-ahk](https://github.com/karakaram/alt-ime-ahk)に出会った感動が作成の原動力になりました。
+
+## 動作環境
+
+- Windows11
+
+## 使い方
+
+1. [select-note-ahk v0.1.0](https://github.com/kazi983/select-note-ahk/releases/download/v0.1.0/select-note-ahk.zip)からselect-note-ahk.zipをダウンロードして解凍します。
+
+2. 日本語バージョンならselect-note-ahk-ja.exeを好きな場所に置き、起動してください。タスクトレイに常駐します。
+
+   *起動するのは日本語バージョン・英語バージョンのどちらか一つだけにします。使わない方は削除していただいても大丈夫です。*
+
+3. 終了する場合はタスクトレイのアイコンを右クリックし、「終了」をクリックします。
+
+4. アンインストールはselect-note-ahk-ja.exeを削除するだけでOKです。
