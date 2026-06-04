@@ -15,9 +15,15 @@ All data is saved to a CSV file, making it easy to review, search, or import int
 ## Usage
 
 1. Select any text.
+
 2. Press `Alt + C`.
+
 3. Enter your note.
+
 4. The text and note will be saved automatically.
+
+5. Click the toast notification to open where the file is saved.
+<img width="1632" height="1014" alt="select-note-ahk" src="https://github.com/user-attachments/assets/dedbc757-e27f-4ad3-bcc8-afb317dff514" />
 
 ## Example
 
@@ -75,7 +81,9 @@ so I can stay focused on reading while still capturing useful information.
 1. テキストを選択
 2. `Alt + C` を押す
 3. コメントを入力
-4. 自動で保存
+4. 自動で保存される
+5. トースト通知をクリックすると保存場所が開く
+<img width="1632" height="1014" alt="select-note-ahk" src="https://github.com/user-attachments/assets/dedbc757-e27f-4ad3-bcc8-afb317dff514" />
 
 ## 使用例
 
