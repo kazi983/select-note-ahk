@@ -77,6 +77,23 @@ so I can stay focused on reading while still capturing useful information.
 3. コメントを入力
 4. 自動で保存
 
+## 使用例
+
+選択したテキスト:
+
+> take notes
+
+メモ:
+
+> take a noteだとさっと書き留める感じ。take notesはしっかり記録する感じ。講義のノート、会議のメモとか。
+
+保存される情報:
+
+```csv
+timestamp,text,comment
+2026-06-03 10:00:00,"take notes","take a noteだとさっと書き留める感じ。take notesはしっかり記録する感じ。講義のノート、会議のメモとか。"
+```
+
 ## こんな用途に
 
 * 技術記事のメモ
