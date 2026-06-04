@@ -9,7 +9,7 @@
     ClipWait, 2
     if (ErrorLevel) {
         Clipboard := ClipSaved  ; 元に戻す
-        MsgBox コピー失敗
+        TrayTip, エラー,  コピー失敗, 16
         return
     }
     SelectedText := Clipboard
@@ -18,7 +18,7 @@
     ; 選択文字が空なら何もしない
     if (SelectedText = "")
     {
-        MsgBox, 48, Error, 文字が選択されていません。
+        TrayTip, エラー,  文字が選択されていません, 16
         return
     }
 
@@ -28,7 +28,7 @@
     ; キャンセルされた場合は終了
     if (ErrorLevel)
     {
-        MsgBox , , キャンセル, キャンセルされました
+        TrayTip, キャンセル,  キャンセルされました, 16
         return
     }
 
@@ -47,11 +47,9 @@
     {
         ; CSVファイルを追加
         line:= "timestamp,text,comment`n"
-        MsgBox , , ストップ,
     }
 
     ; 取得した選択文字を成形
-    ; 改行コードをエスケープ
     ; " をエスケープ
     StringReplace, selectedTextFormatted, SelectedText, ", "", All
     ; " で囲う
@@ -76,5 +74,6 @@
     ; 完了メッセージ
     TrayTip, 保存完了,  メモを保存しました。`n%SelectedText%`n%UserComment%, 16
 
+    ; メモリ開放
     ClipSaved := ""
 return
